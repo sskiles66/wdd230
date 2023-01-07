@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Press+Start+2P&display=swap');
+/*https://coolors.co/palette/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff*/
+
+body {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 760px;
+    font-family: 'Crimson Text', serif;
+    
+}
+
+header {
+    display: flex;
+    background-color: #0B090A;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    
+    
+    
+}
+
+main h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+header img{
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+header h1 {
+    padding-top: 70px;
+    padding-left: 120px;
+    
+}
+
+
+
+
+footer {
+    background-color: #0B090A;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    padding-top: 10px;
+    
+}
+
+a {
+    color: black;
+}
+
+main ul li {
+    padding: 5px;
+}
