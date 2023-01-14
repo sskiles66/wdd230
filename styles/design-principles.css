@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&display=swap');
+
+/*https://coolors.co/0a0908-22333b-eae0d5-492728*/
+/*For whatever reason, web developer is not validating this css*/
+
+
+
+body{
+    color: #eae0d5;
+}
+
+
+header, footer{
+    background-color: #0a0908;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+}
+
+/*main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}*/
+
+main {
+    align-self: center;
+}
+
+.section {
+    background-color: #492728;
+    border: solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.images {
+    width: 95%;
+   
+   
+    display: block;
+    margin: 0 auto;
+}
+
+h3, p {
+    /*margin: 20px;*/
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: #eae0d5;
+}
+
+h3 {
+    background-color: #0a0908;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+    
+    
+   
+}
+
+
+@media screen and (max-width: 499px) {
+    main {
+    display:grid;
+    grid-template-columns: 1fr;
+    }
+
+    
+  }
+
+
+
+
+@media screen and (min-width: 650px) {
+    main {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    }
+  }
+
+@media screen and (min-width: 1280px) {
+    main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+  }
