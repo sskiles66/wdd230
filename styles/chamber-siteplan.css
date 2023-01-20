@@ -25,14 +25,20 @@ main{
 
 main p, li{
     font-size: smaller;
+    line-height: 20px;
 }
 
 img {
     width: 95%;
+    
    
    
     display: block;
     margin: 0 auto;
+}
+
+main #grid .section .section-img {
+    min-height: 250px;
 }
 
 #logo{
