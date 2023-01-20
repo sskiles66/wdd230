@@ -1,0 +1,134 @@
+
+/*https://coolors.co/f1f0ef-909395-85ae09-565e21-01161e*/
+
+
+body {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+
+}
+
+h1, h2, h3{
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+main{
+    background-color: #F1F0EF;
+    padding:10px;
+    
+    font-family: 'Libre Baskerville', serif;
+}
+
+main p, li{
+    font-size: smaller;
+}
+
+img {
+    width: 95%;
+   
+   
+    display: block;
+    margin: 0 auto;
+}
+
+#logo{
+    max-width: 20%;
+}
+
+#grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section {
+    margin:5px;
+}
+
+
+
+
+#design h2 {
+    background-color: #85AE09;
+    border:solid #01161E;
+    color: #01161E;
+    padding: 5px;
+}
+
+#design #sample2 {
+    background-color: #F1F0EF;
+    border:solid #565E21;;
+    color: #01161E;
+    padding: 5px;
+}
+
+#design #sample3 {
+    background-color: #85AE09;
+    border:solid #01161E;
+    color: #01161E;
+    padding: 5px;
+}
+
+#design #sample4 {
+    background-color: #F1F0EF;
+    border:solid #565E21;;
+    color: #01161E;
+    padding: 5px;
+}
+
+
+nav {
+    background-color: #F1F0EF;
+    padding: 5px;
+    border: solid #565E21;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+
+nav ul li{
+    display: inline;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #85AE09;
+    border-radius: 10px;
+    margin-right: 3.5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: larger;
+}
+
+a {
+    color: #01161E;
+    
+    
+}
+
+
+@media screen and (max-width: 631px) {
+    #grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    }
+
+    body {
+        
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+
+    nav ul li{
+		display: block;
+        margin-top: 10px;
+        border-radius: 0;
+        border: solid black;
+        margin-right: 30px;
+	} 
+
+    
+  }
