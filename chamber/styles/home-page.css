@@ -1,0 +1,126 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    
+}
+
+main h1{
+    /*font-family: 'Libre Baskerville', serif;*/
+    font-family: 'Yeseva One', cursive;
+}
+
+main p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+#headdate{
+    font-family: 'Yeseva One', cursive;
+}
+
+
+footer h3{
+    font-family: 'Yeseva One', cursive;
+}
+
+footer p{
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav {
+    background-color: #F1F0EF;
+    
+    /*display: flex;*/
+}
+
+nav button {
+    margin: 0.2rem 2vw;
+    border: none;
+    font-size: 2rem;
+    
+}
+
+nav button:hover {
+    background-color: #85AE09;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid black;
+    font-family: 'Yeseva One', cursive;
+    color: black;
+}
+
+
+.responsive ul {
+    display: block;
+}
+
+/*these two hovers may be doing the same thing.*/
+
+.responsive ul li a:hover {
+    background-color: #85AE09;
+}
+
+nav ul li a:hover {
+    background-color: #85AE09;
+}
+
+img {
+    max-width: 100px;
+    
+    
+    
+    
+}
+
+#logo {
+    text-align: center;
+    padding-bottom: 40px;
+    
+    
+}
+
+
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    text-align: left;
+    padding: 10px;
+    
+    margin: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: #85AE09;
+}
+
+#join, #spot3 {
+    display: none;
+}
+
+#hero, #news, #event, #weather, #spotlight {
+    background-color: #F1F0EF;
+}
+
+#grid2 {
+    padding: 10px;
+    background-color: #85AE09;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #F1F0EF;
+}
+
+#headdate {
+    text-align: center;
+    padding: 5px;
+
+}
