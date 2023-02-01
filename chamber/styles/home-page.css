@@ -60,6 +60,22 @@ nav ul li a {
     display: block;
 }
 
+
+#hero img {
+    width: 100%;
+    margin-left: 20px;
+}
+
+#hero {
+    position: relative;   /* parent is relative while child is absolute */
+}
+
+#hero h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /*these two hovers may be doing the same thing.*/
 
 .responsive ul li a:hover {
