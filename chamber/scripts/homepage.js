@@ -48,3 +48,10 @@ let headdate = `${name_day}, ${date_num2} ${month2} ${year}`
 
 
 document.body.querySelector("#headdate").innerHTML = headdate;
+
+
+if (day == 1 || day == 2){
+    let banner_message = document.createElement("h1");
+    banner_message.innerHTML = "Come to the meet and greet on Wednesday at 7:00PM!";
+    document.body.querySelector("#headdate").appendChild(banner_message);
+}

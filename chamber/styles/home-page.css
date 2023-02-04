@@ -6,15 +6,40 @@ nav ul {
     
 }
 
-main h1{
+main h2{
     /*font-family: 'Libre Baskerville', serif;*/
     font-family: 'Yeseva One', cursive;
 }
+
+main {
+    background-color: #85AE09;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 main p {
     font-family: 'Libre Baskerville', serif;
 }
 
+#event, #weather, #join, #news, #spotlight {
+    text-align: center;
+    
+}
+
+#flex-weather {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#event p, #join p, #news p, #join p, #join button, #event h2 {
+    margin: 10px;
+}
+
+/*padding for grid blocks like #event will make grid borders thicker.*/
 
 #headdate{
     font-family: 'Yeseva One', cursive;
@@ -61,20 +86,46 @@ nav ul li a {
 }
 
 
-#hero img {
+main img {
+    
     width: 100%;
-    margin-left: 20px;
+    
+    
+}
+
+#weather img, #spot1 img, #spot2 img {
+    width: 20%;
 }
 
 #hero {
+    text-align: center;
     position: relative;   /* parent is relative while child is absolute */
 }
 
 #hero h2 {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 40px;
 }
+
+#hero button {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: #F1F0EF;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Yeseva One', cursive;
+}
+
+#join button {
+    background-color: #F1F0EF;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Yeseva One', cursive;
+}
+
+
 
 /*these two hovers may be doing the same thing.*/
 
@@ -86,7 +137,7 @@ nav ul li a:hover {
     background-color: #85AE09;
 }
 
-img {
+nav img, footer img {
     max-width: 100px;
     
     
@@ -94,13 +145,19 @@ img {
     
 }
 
+
+
+/*Need to make this section of the nav a grid*/
 #logo {
     text-align: center;
     padding-bottom: 40px;
     
     
 }
-
+#facebook-logo {
+    position: absolute;
+    right: 10px;
+}
 
 
 #grid {
@@ -113,7 +170,14 @@ img {
     margin: 10px;
     column-gap: 10px;
     row-gap: 10px;
-    background-color: #85AE09;
+    
+
+
+}
+
+
+#grid > * {
+    box-shadow: 1px 1px 20px 1px ;
 }
 
 #join, #spot3 {
