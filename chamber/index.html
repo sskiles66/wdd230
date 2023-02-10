@@ -51,10 +51,10 @@
 
             <div id="hero">
                 <picture>
-                    <source media="(max-width: 649px)" srcset="images/ArlingtonWAHero_small_(1)_paint.jpg" />
-                    <source media="(max-width: 1279px)" srcset="images/ArlingtonWAHero_medium_(1)_paint.jpg" />
-                    <source media="(min-width: 1280px)" srcset="images/ArlingtonWAHero_large_(1)_paint.jpg" />
-                    <img src="images/ArlingtonWAHero_large_(1).jpg" alt="Grass and trees. Arlington, WA" />
+                    <source media="(max-width: 649px)" srcset="images/ArlingtonWAHero_small_(1)_paint.jpg" >
+                    <source media="(max-width: 1279px)" srcset="images/ArlingtonWAHero_medium_(1)_paint.jpg" >
+                    <source media="(min-width: 1280px)" srcset="images/ArlingtonWAHero_large_(1)_paint.jpg" >
+                    <img src="images/ArlingtonWAHero_large_(1).jpg" alt="Grass and trees. Arlington, WA" >
                   </picture>
                 <h2>Welcome to Arlington, WA</h2>
                 <button>Join the Chamber</button>
@@ -71,8 +71,10 @@
                 <h2>Weather</h2>
                 <div id="flex-weather">
                     <img src="images/weather_icon.png" alt="Cloudy Weather Icon">
-                    <p>37 Degrees F</p>
+                    <p><span id="temperature">placeholder</span><span>&#176;</span><span>F</span></p>
                 </div>
+                <p>Wind Speed: <span id="windSpeed">placeholder</span><span>MPH</span></p>
+                <p>Wind Chill: <span id="windChill">placeholder</span><span id="degree">&#176;</span><span id="f">F</span></p>
             </div>
             <div id="news">
                 <h2>News Release</h2>
@@ -122,7 +124,7 @@
         
         <div id="siteinfo">
 
-            <img src="images/CC-Logo.png" alt="Arlington Chamber of Commerce Logo">
+            <img src="images/icon_6fb6f753ad2127745708a153a03505d8.webp" alt="Arlington Chamber of Commerce Logo">
         
 
             <h3>Arlington, WA Chamber of Commerce</h3>
@@ -154,5 +156,6 @@
     </footer>
 
     <script src="scripts/homepage.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

@@ -66,6 +66,7 @@
     #siteinfo{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     #siteinfo2{
@@ -81,4 +82,7 @@
         padding-top: 8px;
     }
     
+    #weather img{
+        width: 30%;
+    }
 }
