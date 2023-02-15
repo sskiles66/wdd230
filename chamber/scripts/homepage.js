@@ -55,3 +55,10 @@ if (day == 1 || day == 2){
     banner_message.innerHTML = "Come to the meet and greet on Wednesday at 7:00PM!";
     document.body.querySelector("#headdate").appendChild(banner_message);
 }
+
+/*Storage local and session*/
+
+localStorage.setItem('name', 'Stephen Skiles - Permanent');
+
+/*this will just run everytime, most JS is required*/
+sessionStorage.setItem('class', 'WDD230 - not Permanent');

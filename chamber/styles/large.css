@@ -16,6 +16,11 @@
         
     }
 
+    #discover-grid {
+    
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     #hero {
         grid-column: 2/4;
         grid-row: 1/3;

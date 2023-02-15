@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+
+
+picture img {
+    
+    display: block;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}

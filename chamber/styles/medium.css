@@ -8,6 +8,11 @@
         padding: 10px;
     }
 
+    #discover-grid {
+       
+        grid-template-columns: 1fr 1fr;
+    }
+
     #hero {
         grid-column: 1/4;
         grid-row: 1/2;
