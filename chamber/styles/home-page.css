@@ -230,9 +230,21 @@ footer {
     background-color: #F1F0EF;
 }
 
+.section p {
+    text-align: center;
+    padding: 10px;
+   
+}
+
 
 
 .section img {
     width: 100%;
     
 }
+
+#days{
+    text-align: center;
+
+}
+

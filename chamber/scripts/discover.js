@@ -6,7 +6,7 @@ if (!localStorage.getItem('lastVisit')){
     let currentDate = Date.now();
     let lastDate = Number(window.localStorage.getItem("lastVisit"));
     let diff = (currentDate - lastDate) / 1000 / 60 / 60 / 24;
-    document.body.querySelector("#diff").innerHTML = Math.round(diff);
+    document.body.querySelector("#diff").innerHTML = Math.floor(diff);
     lastDate = currentDate;
     localStorage.setItem('lastVisit', lastDate);
 
