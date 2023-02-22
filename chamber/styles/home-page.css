@@ -6,7 +6,7 @@ nav ul {
     
 }
 
-main h2{
+main h2, .section h2{
     /*font-family: 'Libre Baskerville', serif;*/
     font-family: 'Yeseva One', cursive;
 }
@@ -18,7 +18,7 @@ main {
 }
 
 
-main p {
+main p, .section p {
     font-family: 'Libre Baskerville', serif;
 }
 

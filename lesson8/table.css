@@ -1,0 +1,37 @@
+
+
+table, th, td {
+    
+    text-align: center;
+    padding: 10px;
+    caption-side: bottom;
+    
+  }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+
+    
+}
+
+thead th:nth-of-type(1) {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+}
+
+thead th {
+  background-color: rgba(28,21,21);
+  color: white;
+}
+
+tbody tr:nth-of-type(even){
+  background-color: #ccc;
+
+}
+
+tbody th, tbody td {
+  border: 1px solid gray;
+}
