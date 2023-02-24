@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arlington WA Chamber of Commerce Discover Site</title>
+    <meta name="description" content="Arlington WA chamber of commerce discover site. Help visitors and newcomers find good find attractions and scenery in Arlington.">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/home-page.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <button class="hamButton">&#9776;</button>
+
+            
+                <div id="logosect">
+                    <div id="logo">
+                        <a href="index.html"><img src="images/icon_6fb6f753ad2127745708a153a03505d8.webp" alt="Arlington Chamber of Commerce Logo"></a>
+                        <a href="index.html"> <img src="images/official-facebook-clipart-png-19.png" alt="Facebook logo" id="facebook-logo"></a>
+                    </div>
+                </div>
+                <ul>
+                    
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            
+
+            <div id="headdate">
+                <h2>Date</h2>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <h1 id="joinchamber">Join Our Chamber</h1>
+    <main id="join-main">      <!--can use flexbox for lay out, flex rows for large view and flex column for small view-->
+        <form method="get" action="thankyou.html">    <!--get is less secure than post-->
+            <label for="fname">First Name *:</label>  <!--for and id need to be the same for ADA accessibility input needs name for backend stuff-->
+            <input id="fname" name="firstname" required>
+
+            <label for="lname">Last Name *:</label>
+            <input id="lname" name="lastname" required>
+
+            <label for="title">Business Position Title:</label>
+            <span>Only letters, dashes and spaces, 7 or more letters</span>
+            <input id="title" name="biztitle" pattern="[A-Za-z -]+" minlength="7" required>
+
+            <label for="email">Email *:</label>
+            <input id="email" name="email" type="email" placeholder="someone@domain.com" required>
+
+            <label for="phone">Phone *:</label>
+            <input id="phone" name="phone" type="tel" required>
+
+            <label for="business">Business Name *:</label>
+            <input id="business" name="bizname" required>
+
+            <label>Enter your level of membership</label> <!--got rid of for because of html validation error-->
+            <div id="radio">
+                <!--<input id="member" type="radio" id='one' name="mlevel">-->
+                <input class="member" type="radio" id='one' name="mlevel">
+                <label for="one">Level 1</label>
+                
+                <input class="member" type="radio" id='two' name="mlevel">
+                <label for="two">Level 2</label>
+                
+                <input class="member" type="radio" id='three' name="mlevel">
+                <label for="three">Level 3</label>
+                
+                <input class="member" type="radio" id='four' name="mlevel">
+                <label for="four">Level 4</label>
+                
+                
+            </div>
+
+            <label for="message">Business Description:</label>
+            <textarea id="message"></textarea>
+            <input id="date" type="hidden" name="todaydate">
+
+            <input type="submit" value="Join the Chamber">
+
+
+
+        </form>
+
+        <div id="membership">
+            <h2>Membership Levels</h2>
+            <h3>NP Membership</h3>
+            <ul>
+                <li>For non profit organizations</li>
+                <li>There is no fee</li>
+            </ul>
+
+            <h3>Bronze Membership</h3>
+            <ul>
+                <li>15% discounts on events</li>
+                <li>10% discount on advertising</li>
+                <li>Fee of $50/month</li>
+            </ul>
+
+            <h3>Silver Membership</h3>
+            <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+            </ul>
+
+            <h3>Gold Membership</h3>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Fee of $100/month</li>
+            </ul>
+
+        </div>
+
+    </main>
+    
+    
+
+    <footer>
+        
+        <div id="siteinfo">
+
+            <img src="images/icon_6fb6f753ad2127745708a153a03505d8.webp" alt="Arlington Chamber of Commerce Logo">
+        
+
+            <h3>Arlington, WA Chamber of Commerce</h3>
+            <p>City of Arlington 238
+                North Olympic Avenue
+                Arlington, WA 98223
+                Phone: 360-403-3421</p>
+
+
+        </div>
+
+        <div id="siteinfo2">
+            <p>arlingtonwachambercommerce.com</p>
+            <p>&copy;<span id="year">placeholder</span> | Arlington Chamber</p>
+
+        </div>
+
+        <hr>
+
+        <div id="myinfo">
+
+            
+            <h3>Stephen Skiles</h3>
+            <h3>WDD 230 Project</h3>
+            <h3>Last Updated: <span id="date2">placeholder</span></h3>
+
+        </div>
+
+    </footer>
+
+    <script src="scripts/homepage.js"></script>
+    
+</body>
+</html>

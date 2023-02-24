@@ -17,7 +17,7 @@ document.querySelector("#year").innerHTML = year;
 
 let currentDate = document.lastModified;
 
-document.querySelector("#date").innerHTML = currentDate;
+document.querySelector("#date2").innerHTML = currentDate;
 
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
