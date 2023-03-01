@@ -337,3 +337,32 @@ input[type='submit']{
 #thankyoumess {
     text-align: center;
 }
+
+
+/* Directory */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+section {
+    border: 1px solid black;
+    background-color: #F1F0EF;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 1px 1px 20px 1px ;
+}
+
+.cards img {
+    width: 90%;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+
+#dir-main h1, #dir-main h2{
+    text-align: center;
+    
+}
