@@ -1,4 +1,4 @@
-const url = "data.json";
+const url = "https://sskiles66.github.io/wdd230/chamber/data.json";
 
 async function getProphetData() {
     const response = await fetch(url);
