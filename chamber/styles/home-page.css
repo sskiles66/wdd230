@@ -18,8 +18,9 @@ main {
 }
 
 
-main p, .section p, ul li {
+main p, .section p, ul li, p {
     font-family: 'Libre Baskerville', serif;
+    line-height: 1.6;
 }
 
 #event, #weather, #join, #news, #spotlight {
@@ -349,6 +350,7 @@ input[type='submit']{
 }
 
 section {
+    position: relative;
     border: 1px solid black;
     background-color: #F1F0EF;
     padding: 30px;
@@ -360,9 +362,46 @@ section {
 .cards img {
     width: 90%;
     box-shadow: 5px 10px 8px 5px #888888;
+    margin-bottom: 50px;
 }
 
 #dir-main h1, #dir-main h2{
     text-align: center;
     
+}
+
+section p {
+    text-align: left;
+    /*position: absolute;*/
+    
+}
+
+#view {
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+}
+
+#view #cards, #view #list {
+    border: 3px solid black;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: #F1F0EF;
+
+}
+
+table {
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+    display:block;   /* media query use display: table-cell*/
+}
+
+tr:nth-of-type(odd){
+    background-color: #F1F0EF;
 }

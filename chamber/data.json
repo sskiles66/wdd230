@@ -1,67 +1,67 @@
 {
-    "prophets": [
+    "businesses": [
       {
-        "name": "Sno-Isle Library",
+        "name": "SNO-ISLE LIBRARY",
         "address": "135 N. Washington Ave. Arlington WA 98223, US",
         "phone": "360-435-3033",
         "website": "www.sno-isle.org",
         "imageurl": "images/Sno.jpg"
       },
       {
-        "name": "ACE ACME SEPTIC SERVICES",
+        "name": "ACE ACME SERVICES",
         "address": "17924 67th Ave NE Arlington WA 98223, US",
         "phone": "360-659-1881",
         "website": "aceacme.com",
         "imageurl": "images/Ace_Store.jpg"
       },
       {
-        "name": "ARLINGTON THAI CUISINE",
+        "name": "THAI CUISINE",
         "address": "339 N. Olympic Ave Arlington WA 98223, US",
         "phone": "360-435-6633",
-        "website": "Null",
+        "website": "arlthai.com",
         "imageurl": "images/Thai.jpg"
       },
       {
-        "name": "ARLINGTON VELO SPORT BICYCLE SHOP",
+        "name": "ARLINGTON BICYCLE SHOP",
         "address": "401 N. Olympic Avenue Arlington WA 98223, US",
         "phone": "360-629-6415",
-        "website": "Null",
-        "imageurl": "images/Sno.jpg"
+        "website": "arlvel.com",
+        "imageurl": "images/bike.jpg"
       },
       {
         "name": "BANK OF AMERICA",
         "address": "501 N. Olympic Ave Arlington WA 98223, US",
         "phone": "360-435-2191",
         "website": "https://www.bankofamerica.com/",
-        "imageurl": "images/Sno.jpg"
+        "imageurl": "images/bank.jpg"
       },
       {
         "name": "CHINOOK LUMBER",
         "address": "21015 State Route 9 NE Arlington WA 98223, US",
         "phone": "360-435-9900",
         "website": "chinooklumber.com",
-        "imageurl": "images/Sno.jpg"
+        "imageurl": "images/chinook.jpg"
       },
       {
-        "name": "EDWARD JONES ANGIE LANE",
+        "name": "EDWARD JONES",
         "address": "2701 171st Pl NE Ste 204 Marysville WA 98271, US",
         "phone": "360-652-6269",
-        "website": "Null",
-        "imageurl": "images/Sno.jpg"
+        "website": "edwardjones.com",
+        "imageurl": "images/jones.jpg"
       },
       {
         "name": "FOUR DAY FIREPLACE",
         "address": "3923 88th St NE, Suite A Marysville WA 98270, US",
         "phone": "425-358-8963",
-        "website": "Null",
-        "imageurl": "images/Sno.jpg"
+        "website": "fourfire.com",
+        "imageurl": "images/fireplace.jpg"
       },
       {
         "name": "HALLMARK HOMES NW",
         "address": "410 N Olympic Ave Arlington WA 98223, US",
         "phone": "360-454-0629",
-        "website": "Null",
-        "imageurl": "images/Sno.jpg"
+        "website": "hallmarkhomes.com",
+        "imageurl": "images/homes.jpg"
       }
       
     ]
