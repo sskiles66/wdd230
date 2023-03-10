@@ -3,7 +3,7 @@
 
 
 
-const url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Fairbanks%2C%20Alaska?unitGroup=us&key=U2JTGX8W6GCJJRMTT5UWTCGQN&contentType=json";
+const url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Arlington%20WA?unitGroup=us&key=U2JTGX8W6GCJJRMTT5UWTCGQN&contentType=json";
 
 const getWeather = async () => {
     const response = await fetch(url);
@@ -17,11 +17,12 @@ const getWeather = async () => {
 
     document.querySelector("#windSpeed").textContent = data.currentConditions.windspeed;
 
-    //document.querySelector("#weather_icon").src = image;
-    //document.querySelector('#weather_icon').alt= data.currentConditions.conditions + ' icon';
+    document.querySelector("#weather-icon").src = image;
+    document.querySelector('#weather-icon').alt= data.currentConditions.conditions + ' icon';
 
     const windChill = document.body.querySelector("#windChill");
     
+    document.querySelector("#condition").innerHTML = data.currentConditions.conditions;
 
     let currentTemp = t;
 

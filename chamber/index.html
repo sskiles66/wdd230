@@ -22,7 +22,7 @@
                 <div id="logosect">
                     <div id="logo">
                         <a href="index.html"><img src="images/icon_6fb6f753ad2127745708a153a03505d8.webp" alt="Arlington Chamber of Commerce Logo"></a>
-                        <a href="index.html"> <img src="images/official-facebook-clipart-png-19.png" alt="Facebook logo" id="facebook-logo"></a>
+                        
                     </div>
                 </div>
                 <ul>
@@ -30,7 +30,7 @@
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
 
             
@@ -57,7 +57,7 @@
                     <img src="images/ArlingtonWAHero_large_(1).jpg" alt="Grass and trees. Arlington, WA" >
                   </picture>
                 <h2>Welcome to Arlington, WA</h2>
-                <button>Join the Chamber</button>
+                <button onclick="window.open('https://sskiles66.github.io/wdd230/chamber/join.html','_self');">Join the Chamber</button>
                 
             </div>
 
@@ -70,9 +70,10 @@
             <div id="weather">
                 <h2>Weather</h2>
                 <div id="flex-weather">
-                    <img src="images/weather_icon.png" alt="Cloudy Weather Icon">
+                    <img id='weather-icon' src="images/weather_icon.png" alt="Cloudy Weather Icon">
                     <p><span id="temperature">placeholder</span><span>&#176;</span><span>F</span></p>
                 </div>
+                <p id="condition"></p>
                 <p>Wind Speed: <span id="windSpeed">placeholder</span><span>MPH</span></p>
                 <p>Wind Chill: <span id="windChill">placeholder</span><span id="degree">&#176;</span><span id="f">F</span></p>
             </div>
@@ -108,7 +109,8 @@
             </div>
 
             <div id="join">
-                <button>Join Us!</button>
+                
+                <button onclick="window.open('https://sskiles66.github.io/wdd230/chamber/join.html','_self');">Join Us!</button>
                 <p>Join us to receive notifications on the exciting events happening in Arlington, WA.</p>
             </div>
 

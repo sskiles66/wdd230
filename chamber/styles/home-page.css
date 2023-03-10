@@ -6,7 +6,7 @@ nav ul {
     
 }
 
-main h2, .section h2, h2, h3{
+main h2, .section h2, h2, h3, h1{
     /*font-family: 'Libre Baskerville', serif;*/
     font-family: 'Yeseva One', cursive;
 }
@@ -127,6 +127,14 @@ main img {
     font-family: 'Yeseva One', cursive;
 }
 
+#join button:hover {
+    background-color: #85AE09;
+}
+
+#hero button:hover {
+    background-color: #85AE09;
+}
+
 
 
 /*these two hovers may be doing the same thing.*/
@@ -199,6 +207,7 @@ nav img, footer img {
 footer {
     text-align: center;
     background-color: #F1F0EF;
+    padding: 30px;
 }
 
 #headdate {
@@ -404,4 +413,30 @@ td {
 
 tr:nth-of-type(odd){
     background-color: #F1F0EF;
+}
+
+#contact-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+
+}
+
+#contact-container  {
+    background-color: #F1F0EF;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 1px 1px 20px 1px ;
+}
+
+#sub-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#sub-container h2 {
+    padding: 20px;
 }

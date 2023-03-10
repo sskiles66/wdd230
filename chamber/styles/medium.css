@@ -109,5 +109,14 @@
         padding: 5px;
         display: table-cell;   /* media query use display: table-cell*/
     }
+
+    #sub-container {
+        
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        padding: 50px;
+    }
         
 }
