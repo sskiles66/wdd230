@@ -44,6 +44,7 @@ main p, .section p, ul li, p {
 
 #event p, #join p, #news p, #join p, #join button, #event h2 {
     margin: 10px;
+    padding: 10px;
 }
 
 /*padding for grid blocks like #event will make grid borders thicker.*/
