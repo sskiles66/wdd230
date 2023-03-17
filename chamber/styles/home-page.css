@@ -153,7 +153,7 @@ nav ul li a:hover {
 }
 
 nav img, footer img {
-    max-width: 100px;
+    width: 32px;
     
     
     
@@ -300,6 +300,7 @@ input {
 #join-main form {
     background-color: #F1F0EF;
     box-shadow: 1px 1px 20px 1px ;
+    padding: 10px;
 }
 
 #membership  {

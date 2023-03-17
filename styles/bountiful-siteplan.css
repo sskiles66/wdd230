@@ -13,20 +13,29 @@ body {
 }
 
 h1, h2, h3{
-    font-family: 'Yeseva One', cursive;
+    
+    color: black;
+    font-family: 'Courgette', cursive;
+    
+    padding: 10px;
+    background-color: #FFD23F;
+    
     
 }
 
 main{
-    background-color: #F1F0EF;
+    background-color: #2B2B2B;
     padding:10px;
     
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Crimson Text', serif;
 }
 
 main p, li{
-    font-size: smaller;
+    
     line-height: 20px;
+    color: white;
+    font-size: larger;
+    
 }
 
 img {
@@ -59,41 +68,35 @@ img {
 
 
 
-#design h2 {
-    background-color: #85AE09;
-    border:solid #01161E;
-    color: #01161E;
+
+
+#design #sample1 {
+    background-color: #FFD23F;
+    border:solid #565E21;
+    color: black;
     padding: 5px;
 }
 
-#design #sample2 {
-    background-color: #F1F0EF;
-    border:solid #565E21;;
-    color: #01161E;
-    padding: 5px;
+#design #sample1 p {
+    
+    color: black;
+   
 }
 
-#design #sample3 {
-    background-color: #85AE09;
-    border:solid #01161E;
-    color: #01161E;
-    padding: 5px;
-}
-
-#design #sample4 {
-    background-color: #F1F0EF;
-    border:solid #565E21;;
-    color: #01161E;
-    padding: 5px;
-}
 
 
 nav {
-    background-color: #F1F0EF;
+    background-color: #2B2B2B;
     padding: 5px;
-    border: solid #565E21;
-    margin: 5px;
-    border-radius: 20px;
+    padding-top: 10px;
+    
+        
+}
+
+#design #sample1 hr {
+    height: 2px;
+    background-color: black;
+    border: none;
 }
 
 
@@ -103,10 +106,10 @@ nav ul li{
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #85AE09;
+    background-color: #FFD23F;
     border-radius: 10px;
     margin-right: 3.5%;
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Crimson Text', serif;
     font-size: larger;
 }
 
