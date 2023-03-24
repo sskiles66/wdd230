@@ -12,6 +12,8 @@
         width: 100px;
     }*/
 
+    
+
 
     nav {
         background-color: #2B2B2B;
@@ -33,11 +35,21 @@
         border-radius: 20px;
         
         
+        
+        
+    }
+
+    #right {
+        display: flex;
+    }
+
+    .responsive #right {
+        display: flex;
     }
 
     /*#right {
         align-self: center;
-    }
+    
 
     #left {
         display: flex;

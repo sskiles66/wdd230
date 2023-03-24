@@ -72,9 +72,22 @@ img {
 
 #design #sample1 {
     background-color: #FFD23F;
-    border:solid #565E21;
+    border:solid black;
     color: black;
     padding: 5px;
+}
+
+#design #sample2 {
+    margin-top: 10px;
+    background-color: #2B2B2B;
+    border:solid black;
+    color: white;
+    padding: 5px;
+}
+
+#sample2 h2 {
+    background-color: #2B2B2B;
+    color: white;
 }
 
 #design #sample1 p {

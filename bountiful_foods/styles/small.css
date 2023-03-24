@@ -1,66 +1,241 @@
 h1, h2, h3 {
         font-family: 'Courgette', cursive;
-    }
+}
 
-    nav h3 {
-        color: #FFD23F;
-    }
+nav h3 {
+    color: #FFD23F;
+}
 
 
-    nav {
-        background-color: #2B2B2B;
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    nav img {
-        width: 100px;
-    }
-
-    nav a {
-        margin: 20px;
-        padding: 20px;
-        background-color: #FFD23F;
-        align-self: center;
-        color: black;
-        text-decoration: none;
-        font-family: 'Courgette', cursive;
-        border-radius: 20px;
+nav {
+    background-color: #2B2B2B;
+    
+    justify-content: space-evenly;
         
-    }
+}
 
-    #right {
-        align-self: center;
+
+button {
+    position: absolute;
+    padding: 15px;
+    left: 10px;
+    top: 10px;
+    background-color: #FFD23F;
+}
+
+p {
+    font-family: 'Crimson Text', serif; 
+    font-size: larger; 
+}
+
+nav img {
+    width: 150px;
+}
+
+nav a {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFD23F;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+    border-radius: 20px;
+    display: block;
         
-    }
+}
 
-    #left {
-        display: flex;
+body {
+    background-color: #2B2B2B;
+}
+
+.responsive #right {
+    display: block;
+}
+
+#right {
+    align-self: center;
+    display: none;
+    margin-bottom: 10px;
         
-    }
+}
 
-    #left h3 {
-        align-self: center;
-    }
-
-    main img {
-        width: 100%;
-    }
-
-    #hero {
-        position: relative;
+#left {
+    display: flex;
+    justify-content: center;
         
-    }
+}
 
-    #hero-mess {
-        position: absolute;
-        top: 0;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        background: rgba(255, 204, 51, 0.3)
+#left h3 {
+    align-self: center;
+}
+
+#hero img {
+    width: 100%;
+}
+
+#hero {
+    position: relative;
+        
+}
+
+#hero-mess {
+    position: absolute;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(255, 204, 51, 0.3);
         
         
-    }
+}
+
+#social-links {
+    display: flex;
+    
+    position: absolute;
+    bottom: 0;
+    justify-self: center;
+    
+    
+    
+    
+}
+
+#social-links >* {
+    background: rgba(0, 0, 0, 0.3);
+    width: 50px;
+    
+}
+
+
+#main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.section {
+    background-color: #FFD23F;
+    text-align: center;
+    margin: 10px;
+}
+
+#summary {
+    background-color: #FFD23F;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #2B2B2B;
+    margin: 0;
+    padding: 10px;
+    border-top: solid #FFD23F;
+    color: #FFD23F;
+    display: block;
+    text-align: center;
+}
+
+
+footer hr {
+    height: 2px;
+    background-color: #FFD23F;
+    border: none;
+}
+
+#weather {
+    display: flex;
+    justify-content: space-around;
+}
+
+#weather #weather-icon{
+    width: 100px;
+}
+
+.section hr{
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*fresh page*/
+
+#fresh-main {
+    
+    text-align: center;
+    background-color: #FFD23F;
+    display: block;
+    
+    
+    
+}
+
+form {
+    
+    margin-top: 10px;
+    background-color: #2B2B2B;
+    margin: 10px auto 10px;
+    padding: 10px;
+}
+
+
+
+label, input {
+    margin: 0 auto;
+    
+    padding: 10px;
+    display: block;
+    font-size: 1.5em;
+    padding-left: 10px;
+    color:#FFD23F;
+}
+
+#submitBtn {
+    margin: 20px auto;
+}
+
+#view {
+    padding: 10px;
+    
+    color:#FFD23F;
+    text-align: center;
+    background-color: #2B2B2B;
+   
+    
+
+    
+}
+
+
+
+
+
+#fruits, #fruits2, #fruits3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#submitBtn2 {
+    display: none;
+}
+
+
+/*thankyou page*/
+
+#thankyou-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: #FFD23F;
+}
+
