@@ -27,6 +27,24 @@
 
     }
 
+    #summary img {
+        width: 400px;
+        padding: 10px;
+    }
+
+    #cont {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #2B2B2B;
+    }
+
+    #cont p{
+        max-width: 800px;
+        padding: 20px;
+        color:#FFD23F;
+    }
+
     #fresh-main {
     
         text-align: center;
@@ -50,6 +68,12 @@
     
         
     }
+
+    iframe {
+        width: 400px;
+    }
+
+    
 
 
 

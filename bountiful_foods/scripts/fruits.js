@@ -32,6 +32,10 @@ const getFruit = async () => {
         
         document.querySelector("#submitBtn2").style.display = "block";
 
+        view.style.display = "block";
+        
+        
+
         info.replaceChildren();
 
         let fruit = x.value;
@@ -78,7 +82,7 @@ const getFruit = async () => {
 
 
 
-        h2.textContent = 'Summary Information:';
+        h2.textContent = 'Order Information:';
 
         first = document.querySelector("#fname").value;
         firstName.textContent = `First Name: ${first}`;
@@ -102,19 +106,19 @@ const getFruit = async () => {
         instructions.textContent = `Instructions: ${message}`;
 
         totalCarbs = data[fruit2Input].nutritions.carbohydrates + data[fruit1Input].nutritions.carbohydrates + data[fruit3Input].nutritions.carbohydrates;
-        carbs.textContent =  `Total Carbohydrates: ${totalCarbs}`;
+        carbs.textContent =  `Total Carbohydrates: ${totalCarbs.toFixed(2)}`;
 
         totalProtein = data[fruit2Input].nutritions.protein + data[fruit1Input].nutritions.protein + data[fruit3Input].nutritions.protein;
-        protein.textContent =  `Total Protein: ${totalProtein}`;
+        protein.textContent =  `Total Protein: ${totalProtein.toFixed(2)}`;
 
         totalFat = data[fruit2Input].nutritions.fat + data[fruit1Input].nutritions.fat + data[fruit3Input].nutritions.fat;
-        fat.textContent =  `Total Fat: ${totalFat}`;
+        fat.textContent =  `Total Fat: ${totalFat.toFixed(2)}`;
 
         totalSugar = data[fruit2Input].nutritions.sugar + data[fruit1Input].nutritions.sugar + data[fruit3Input].nutritions.sugar;
-        sugar.textContent =  `Total Sugar: ${totalSugar}`;
+        sugar.textContent =  `Total Sugar: ${totalSugar.toFixed(2)}`;
 
         totalCalories = data[fruit2Input].nutritions.calories + data[fruit1Input].nutritions.calories + data[fruit3Input].nutritions.calories;
-        calories.textContent =  `Total Calories: ${totalCalories}`;
+        calories.textContent =  `Total Calories: ${totalCalories.toFixed(2)}`;
 
         info.appendChild(h2);
         info.appendChild(firstName);

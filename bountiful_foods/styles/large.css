@@ -86,4 +86,12 @@
         display: none;
     }
 
+    #about-main{
+        background-color: #FFD23F;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+
 }

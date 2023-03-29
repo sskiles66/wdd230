@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bountiful Foods Fresh</title>
+    <meta name="description" content="Bountiful Foods in Carlsbad, California. Order drinks and see their nutritional information.">
     <link rel="stylesheet" href="../styles/normalize.css"> <!--Normalize CSS Link, goes first-->
     <!--Could do reset file as well-->
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Crimson+Text&display=swap" rel="stylesheet">
-    
+    <link rel="icon" href="favicon.ico">
     
 
 </head>
@@ -20,13 +21,13 @@
         <nav>
             <button class="hamButton">&#9776;</button>
             <div id="left">
-                <img src="images/logobount.png" alt="logo">
+                <img src="images/logobount.png" alt="Bountiful Foods Logo, Basket of Fruit">
                 <h3>Bountiful Foods</h3>
             </div>
             <div id="right">
                 <a href="index.html">Home</a>
                 <a href="fresh.html">Fresh</a>
-                <a href="#">About Us</a>
+                <a href="aboutus.html">About Us</a>
             </div>
         </nav>
     </header>
@@ -35,14 +36,14 @@
         <div id="fresh-main">
             <div id="formthing">
                 <form method="get" action="thankyou.html">
-                    <label for="fname">First Name</label>
+                    <label for="fname">First Name*</label>
                     <input id="fname" name="firstname" required>
 
-                    <label for="email">Email</label>
+                    <label for="email">Email*</label>
                     <input id="email" name="email" type="email" placeholder="someone@domain.com" required>
 
-                    <label for="phone">Phone Number</label>
-                    <input id="phone" name="phone" type="tel" placeholder="111-111-1111" required>
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" id="phone" name="phone" placeholder="111-111-1111" minlength="5" required>
 
                 
                     <label for="fruits">Choose three fruits:</label>
@@ -211,7 +212,7 @@
     <footer>
 
         <div id="site-info">
-            <img src="images/logobount.png" alt="logo">
+            <img src="images/logobount.png" alt="Bountiful Foods Logo, Basket of Fruit">
             <h3>Bountiful Foods</h3>
             <p>123 Avenue NW, Carlsbad, CA</p>
             <p>Phone: 111-111-1111</p>
@@ -235,7 +236,7 @@
 
     </footer>
 
-    
+    <script src="scripts/home.js"></script>
     <script src="scripts/fruits.js"></script>
 </body>
 </html>
