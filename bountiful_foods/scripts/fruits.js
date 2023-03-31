@@ -50,6 +50,8 @@ const getFruit = async () => {
 
         h2 = document.createElement("h2");
 
+        orderDate = document.createElement("p");
+
         firstName = document.createElement("p");
 
         email = document.createElement("p");
@@ -83,6 +85,15 @@ const getFruit = async () => {
 
 
         h2.textContent = 'Order Information:';
+
+        let date = new Date();
+
+        let month = date.getMonth() + 1;
+        let day = date.getDate();
+        let year = date.getFullYear();
+
+
+        orderDate.textContent =  `Order Date: ${month}/${day}/${year}`;
 
         first = document.querySelector("#fname").value;
         firstName.textContent = `First Name: ${first}`;
@@ -121,6 +132,7 @@ const getFruit = async () => {
         calories.textContent =  `Total Calories: ${totalCalories.toFixed(2)}`;
 
         info.appendChild(h2);
+        info.appendChild(orderDate);
         info.appendChild(firstName);
         info.appendChild(phone);
         info.appendChild(email);
