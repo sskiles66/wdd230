@@ -1,22 +1,32 @@
 {
     "characters": [
       {
-        "name": "Default"
+        "name": "Default",
+        "class": "Default",
+        "race": "Default"
       },
       {
-        "name": "Ghost"
+        "name": "Ghost",
+        "class": "Oracle",
+        "race": "Troglobite"
         
       },
       {
-        "name": "Siris"
+        "name": "Siris",
+        "class": "Dragon Follower",
+        "race": "Krown"
         
       },
       {
-        "name": "Douglas"
+        "name": "Douglas",
+        "class": "Mechanic",
+        "race": "Thyme"
         
       },
       {
-        "name": "Kit"
+        "name": "Kit",
+        "class": "Fae Friend",
+        "race": "Naiad"
       }   
     ]
   }
