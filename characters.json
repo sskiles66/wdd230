@@ -3,30 +3,90 @@
       {
         "name": "Default",
         "class": "Default",
-        "race": "Default"
+        "race": "Default",
+        "hp": 0,
+        "speed": 0,
+        "swim": 0,
+        "fly": 0,
+        "climb": 0,
+        "dig": 0,
+        "strength": 0,
+        "constitution": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
       },
       {
         "name": "Ghost",
         "class": "Oracle",
-        "race": "Troglobite"
+        "race": "Troglobite",
+        "hp": 1,
+        "speed": 0,
+        "swim": 0,
+        "fly": 0,
+        "climb": 0,
+        "dig": 0,
+        "strength": 0,
+        "constitution": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 2
         
       },
       {
         "name": "Siris",
         "class": "Dragon Follower",
-        "race": "Krown"
+        "race": "Krown",
+        "hp": 3,
+        "speed": 0,
+        "swim": 0,
+        "fly": 0,
+        "climb": 0,
+        "dig": 0,
+        "strength": 0,
+        "constitution": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 4
         
       },
       {
         "name": "Douglas",
         "class": "Mechanic",
-        "race": "Thyme"
+        "race": "Thyme",
+        "hp": 5,
+        "speed": 0,
+        "swim": 0,
+        "fly": 0,
+        "climb": 0,
+        "dig": 0,
+        "strength": 0,
+        "constitution": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 6
         
       },
       {
         "name": "Kit",
         "class": "Fae Friend",
-        "race": "Naiad"
+        "race": "Naiad",
+        "hp": 7,
+        "speed": 0,
+        "swim": 0,
+        "fly": 0,
+        "climb": 0,
+        "dig": 0,
+        "strength": 0,
+        "constitution": 0,
+        "dexterity": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 8
       }   
     ]
   }
