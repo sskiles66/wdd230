@@ -16,7 +16,8 @@
         "intelligence": 0,
         "wisdom": 0,
         "charisma": 0,
-        "schools": ["Default"]
+        "schools": ["Default"],
+        "imgsrc": "oracletoken.png"
       },
       {
         "name": "Ghost",
@@ -34,7 +35,8 @@
         "intelligence": 0,
         "wisdom": 0,
         "charisma": 2,
-        "schools": ["Necro", "Blood"]
+        "schools": ["Necro", "Blood"],
+        "imgsrc": "oracletoken.png"
         
       },
       {
@@ -53,7 +55,8 @@
         "intelligence": 0,
         "wisdom": 0,
         "charisma": 4,
-        "schools": ["NA"]
+        "schools": ["NA"],
+        "imgsrc": "dragonfollower.png"
         
       },
       {
@@ -72,7 +75,8 @@
         "intelligence": 0,
         "wisdom": 0,
         "charisma": 6,
-        "schools": ["NA"]
+        "schools": ["NA"],
+        "imgsrc": "thyme.png"
         
       },
       {
@@ -91,7 +95,8 @@
         "intelligence": 0,
         "wisdom": 0,
         "charisma": 8,
-        "schools": ["NA"]
+        "schools": ["NA"],
+        "imgsrc": "naiad.png"
       }   
     ]
   }
