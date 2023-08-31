@@ -15,7 +15,8 @@
         "dexterity": 0,
         "intelligence": 0,
         "wisdom": 0,
-        "charisma": 0
+        "charisma": 0,
+        "schools": ["Default"]
       },
       {
         "name": "Ghost",
@@ -32,7 +33,8 @@
         "dexterity": 0,
         "intelligence": 0,
         "wisdom": 0,
-        "charisma": 2
+        "charisma": 2,
+        "schools": ["Necro", "Blood"]
         
       },
       {
@@ -50,7 +52,8 @@
         "dexterity": 0,
         "intelligence": 0,
         "wisdom": 0,
-        "charisma": 4
+        "charisma": 4,
+        "schools": ["NA"]
         
       },
       {
@@ -68,7 +71,8 @@
         "dexterity": 0,
         "intelligence": 0,
         "wisdom": 0,
-        "charisma": 6
+        "charisma": 6,
+        "schools": ["NA"]
         
       },
       {
@@ -86,7 +90,8 @@
         "dexterity": 0,
         "intelligence": 0,
         "wisdom": 0,
-        "charisma": 8
+        "charisma": 8,
+        "schools": ["NA"]
       }   
     ]
   }
